@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Tuan's Profile</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #e9d8f4;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: rgb(250, 237, 237);
+  color: #58257b;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.header p {
+  font-size: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #58257b;
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 34.3px;
+  text-decoration: none;
+}
+
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+  background-color: #db7093;
+  color: white;
+}
+
+/* Tạo hai cột không bằng nhau, float cạnh nhau */
+/* Cột trái */
+.leftcolumn { 
+  float: left;
+  width: 75%;
+}
+
+/* Cột phải */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #e9d8f4;
+  padding-left: 20px;
+}
+
+/* Hình ảnh tượng trưng */
+.fakeimg {
+  background-color: #baa1cc;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Thêm định dạng thẻ cho bài viết */
+.card {
+  background-color: rgb(250, 237, 237);
+  padding: 10px;
+  margin-top: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* Clear float khác sau các cột */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: rgb(250, 237, 237);
+  margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* Bố cục linh hoạt: các cột xếp chồng lên nhau thay vì cạnh nhau khi màn hình 
+có chiều rộng dưới 700px */
+@media screen and (max-width: 700px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Bố cục linh hoạt: Thanh menu điều hướng xếp chồng lên nhau thay vì cạnh nhau
+khi màn hình có chiều rộng dưới 300px  */
+@media screen and (max-width: 300px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome To My Website</h1>
+  <p>Learn, Learn More, Learn Forever</p>
+</div>
+<div class="topnav">
+  <a href="Literacy.html" target="blank">Literacy</a>
+  <a href="Photo.html" target="blank">Photo</a>
+  <a href="Video.html" target="blank">Video</a>
+  <a href="Collection.html" target="blank">Collection</a>
+  <a href="Anime.html" target="blank">Anime</a>
+  <a href="Music.html" target="blank">Music</a>
+  <a href="Game.html" target="blank">Game</a>
+  <a href="https://drive.google.com/open?id=0ByoYId-KG3HUSXJOZWprSk0wTTQ" target="blank">Document</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Homepage</h2>
+      <h5>Hanoi, 25/03/2020</h5>
+      <center><img src="https://khamphamoingay.com/wp-content/uploads/2019/06/tai-hinh-anh-bia-den-trang-chat-nhat-cho-facebook-16.jpg" width="1000" height="250"/></center>
+      <p>This is my first website. </p>
+      <p>On 25/03/2020, I decided to make something that I have never done before to boost my career path. I choosed make a website because 
+        I thought it was easier than make a application. As a result, this website appeared. </p>
+    </div>
+    <div class="card">
+      <h2>Guide</h2>
+      <center><img src="https://www.theshelbyreport.com/wp-content/uploads/2016/08/Lets_Begin_Teaser_Post_5.jpg" width="1000" height="250"/></center>
+      <p>Choose the tab above to discover me.</p>
+      <p>Each tab contains a content about my life, career, hobbies and family.</p>
+      <p>LET BEGIN</p>
+    </div>
+    <div class="card">
+      <h2></h2>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <center><h2>Introduction</h2></center>
+      <center><img src="https://ctt-sis.hust.edu.vn/Content/Anh/anh_20194875.jpg" width="243" height="360"/></center>
+      <center><p>Kieu Anh Tuan</p></center>
+      <center><p>Student at Hanoi University of Science and Technology</p></center>
+    </div>
+    <div class="card">
+      <center><h3>Highlights</h3></center>
+      <center><img src="https://yt3.ggpht.com/a/AGF-l7_V3CMyLnaMfn27nG8mVAiS-pS_7F60Ty-3=s900-c-k-c0xffffffff-no-rj-mo" width="310" height="250"/></center>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <a href="https://www.facebook.com/profile.php?id=100006934399414" target="blank">Facebook<br><br></a>
+      <a href="https://www.instagram.com/obunagawa/" target="blank">Instagram</a>
+    </div>
+    <div class="card">
+    <div class="contact">
+      <center><h3>Contact</h3></center>
+      <ul>
+          <li>Address: Cam Yen - Thach That - Ha Noi</li>
+          <li>Phone number: 0345912001 or +84847531998</li>
+          <li>Email
+              <ol>
+                  <li>Gmail: naroto102hn2@gmail.com</li>
+                  <li>Outlook: tuan.ka194875@sis.hust.edu.vn</li>
+              </ol>
+          </li>
+          <li>Donate
+              <ol>
+                  <li>BIDV: 12210002074027</li>
+                  <li>Viettinbank: 103870480675</li>
+              </ol>
+          </li>
+      </ul>
+  </div>
+</div>
+  </div>
+</div>
+<div class="footer">
+  <h4>Copyright &copy; 2020 by Tuandz</h4>
+</div>
+
+</body>
+</html>
